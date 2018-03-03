@@ -38,14 +38,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "USB Floppy Adapter"
+Date "2018-03-03"
+Rev "0"
+Comp "Benedikt Freisen"
 Comment1 ""
 Comment2 ""
 Comment3 ""
-Comment4 ""
+Comment4 "STM32-based USB to Floppy-Disk Drive (FDD) Adapter"
 $EndDescr
 $Comp
 L STM32F103C8Tx U2
@@ -933,4 +933,34 @@ Wire Wire Line
 Connection ~ 10250 4600
 Wire Wire Line
 	10600 4600 10750 4600
+NoConn ~ 9600 3500
+NoConn ~ 9600 3600
+NoConn ~ 9600 4400
+NoConn ~ 9600 4900
+NoConn ~ 3800 2100
+NoConn ~ 3800 2500
+NoConn ~ 3800 3000
+NoConn ~ 3800 3100
+NoConn ~ 3800 3200
+NoConn ~ 3800 3600
+NoConn ~ 3800 3700
+NoConn ~ 3800 3800
+NoConn ~ 3800 3900
+NoConn ~ 3800 4000
+NoConn ~ 3800 4100
+NoConn ~ 3800 4200
+NoConn ~ 3800 4300
+$Comp
+L GND #PWR?
+U 1 1 5A9ADE2C
+P 3600 2300
+F 0 "#PWR?" H 3600 2050 50  0001 C CNN
+F 1 "GND" H 3600 2150 50  0000 C CNN
+F 2 "" H 3600 2300 50  0001 C CNN
+F 3 "" H 3600 2300 50  0001 C CNN
+	1    3600 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 2300 3800 2300
 $EndSCHEMATC
