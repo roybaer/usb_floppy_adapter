@@ -2,6 +2,8 @@
 
 This project provides the CAD files for an STM32-based floppy-disk controller that can be attached to the back of an ordinary 3.5 inch floppy-disk drive and connected to a USB host via micro USB port.
 
+![USB FDD Adapter front and back](img/front_back.jpg)
+
 ## Configuration
 
 The adapter can be used in several different hardware configurations that can be selected via solder bridges.
