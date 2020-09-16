@@ -38,7 +38,7 @@ Configurations other than the USB-powered PC drive (see [picture](img/pc_drive.j
 As of August 2020, there is no working firmware for this adapter, yet.
 
 The objective is to adapt the firmware provided by the [Greaseweazle project](https://github.com/keirf/Greaseweazle).
-It does already provide support the same microcontroller, albeit for a much bulkier adapter with a different pinout.
+It does already provide support for the same microcontroller, albeit for a much bulkier adapter with a different pinout.
 
 ### Programming via Serial Wire Debug Interface
 
